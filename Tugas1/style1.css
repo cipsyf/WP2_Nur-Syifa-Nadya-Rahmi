@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaper.jpg);
+}
+
+p {
+    text-align: justify;
+}
+
+#box {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#header{
+    background-color: #d8e089;
+    padding: 20px;
+}
+
+#menubar{
+    background-color: #e4e4e4;
+    margin: auto;
+}
+
+.teksmenu{
+    text-decoration: none;
+}
+
+#konten{
+    padding: 20px;
+}
+
+#footer{
+    background-color: #cfa751;
+    padding: 20px;
+}
