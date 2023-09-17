@@ -1,32 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Hitung Bangun Ruang Kerucut</title>
-    </head>
-    <body>
-        <form name="hitung" action="tugas2.php" method="POST">
-	        Jari-jari: <input type="text" name="kerucut_r">
-	        <br>
-	        Panjang sisi kerucut: <input type="text" name="kerucut_s">
-	        <br>
-	        <input type="submit" value="hitung" name="hitung">
-	        <br>
-        </form>
-    </body>
-</html>
-
 <?php
-if(isset($_POST['hitung'])){
-	$kerucut_r = $_POST['kerucut_r'];
-	$kerucut_s = $_POST['kerucut_s'];
-	
-	$phi = 3.14;
-	$kerucut_luas_alas = $phi * $kerucut_r * $kerucut_r;
-	$kerucut_luas_selimut = $phi * $kerucut_r * $kerucut_s;
-	$kerucut_luas_permukaan = $kerucut_luas_alas + $kerucut_luas_selimut;
-	
-	echo "<h3>Hasil:</h3>";
-	echo "<p>Luas alas = $kerucut_luas_alas</p>";
-	echo "<p>Luas permukaan = $kerucut_luas_permukaan</p>";
-}
+$jari = 5;
+$sisi = 10;
+$phi = 3.14;
+
+$luasAlas = $phi * $jari * $jari;
+$luasSelimut = $phi * $jari * $sisi;
+$luasPermukaan = $luasAlas + $luasSelimut;
+
+echo("<b>Keterangan:</b><br>");
+echo("Jari-jari = 5 <br> Panjang sisi kerucut = 10 <br> Phi = 3.14 <br><br>");
+echo("Luas alas = ".$luasAlas."<br>");
+echo("Luas permukaan = ".$luasPermukaan)
 ?>
