@@ -9,6 +9,6 @@ GUIDE:
 - Pertemuan2
 - Tugas1
 
-#Praktikum 2 (Modul 4)
+#Praktikum 2 (Modul 3)
 - Pertemuan4
 - Tugas2
