@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Input Biodata</title>
+    </head>
+    <body>
+        <form enctype="multipart/form-data" id="form_text" name="form_text" method="POST" action="proses_biodata.php">
+            <p>NIM:</p>
+            <input type="text" name="nim" id="nim">
+            <p>Nama:</p>
+            <input type="text" name="nama" id="nama">
+            <p>Pilih semester:</p>
+            <input type="checkbox" name="s1" value="Semester 1">Semester 1<br>
+            <input type="checkbox" name="s3" value="Semester 3">Semester 3<br>
+            <input type="checkbox" name="s5" value="Semester 5">Semester 5<br>
+            <p>Pilih prodi:</p>
+            <select name="prodi">
+                <option value="SIKC">Sistem Informasi Kota Cerdas</option>
+                <option value="TI">Teknik Informatika</option>
+                <option value="Elektronika">Elektronika</option>
+                <option value="TRPE">Teknik Rekayasa Pembangkit Energi</option>
+                <option value="Listrik">Teknik Listrik</option>
+            </select>
+            <p>Masukan:</p>
+            <textarea name="text"></textarea><br>
+            <p>Upload File Foto: <input type="file" name="file"></p>
+            <p><input type="submit" name="Button" id="Button" value="Upload"></p>
+        </form>    
+    </body>
+</html>
