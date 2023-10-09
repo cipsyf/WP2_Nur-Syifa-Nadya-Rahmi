@@ -2,6 +2,6 @@
     $nilai = 70;
 
     if ($nilai >= 60) {
-        echo "Anda lulus denga nilai $nilai";
+        echo "Anda lulus dengan nilai $nilai";
     }
 ?>
