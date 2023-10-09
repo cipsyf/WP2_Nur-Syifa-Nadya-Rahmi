@@ -15,7 +15,12 @@ GUIDE:
 - Tugas6
 
 #Praktikum 3 (Modul 4, 5, 6)
-- Pertemuan 3
+- Pertemuan3
 - Tugas3
 - Tugas4
 - Tugas5
+
+#Praktikum 4 (Modul 8, 9)
+- Pertemuan5
+- Tugas7
+- Tugas8
