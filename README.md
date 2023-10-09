@@ -9,7 +9,7 @@ GUIDE:
 - Pertemuan2
 - Tugas1
 
-#Praktikum 2 (Modul 3, 7)
+#Praktikum 2, 4 (Modul 3, 7)
 - Pertemuan4
 - Tugas2
 - Tugas6
@@ -20,7 +20,7 @@ GUIDE:
 - Tugas4
 - Tugas5
 
-#Praktikum 4 (Modul 8, 9)
+#Praktikum 5 (Modul 8, 9)
 - Pertemuan5
 - Tugas7
 - Tugas8
