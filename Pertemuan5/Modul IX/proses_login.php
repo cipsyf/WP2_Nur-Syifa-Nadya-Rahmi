@@ -1,7 +1,9 @@
 <?php
     session_start();
     if(isset($_POST['Login'])){
-    	if(($_POST['nama']=="") && ($_POST['pass']=="")) { echo "User Name dan Password masih kosong"; session_destroy();
+    	if(($_POST['nama']=="") && ($_POST['pass']=="")) { 
+            echo "User Name dan Password masih kosong"; 
+            session_destroy();
 	}else{
         // user = “johan” & password = “bengbeng123”
         if(($_POST['nama']=="johan") and ($_POST['pass']=="bengbeng123")){  
